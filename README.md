@@ -1,7 +1,7 @@
-This repository is the implementation of KAHAN: Knowledge-Aware Hierarchical Attention Network for Fake News detection on Social Media. 
+# KAHAN: Knowledge-Aware Hierarchical Attention Network for Fake News detection on Social Media (WWW'22 SocialNLP Workshop)
+This repository is the same version as the official implementation of KAHAN by Yu-Wun Tseng, Hui-Kuo Yang, Wei-Yao Wang, Wen-Chih Peng.
 
----
-#### Code
+## Code
 mian.py - Main function for executing code. Involves loading dataset and pre processing data including train test split.
 
 KAHAN.py - Involves model construction, training and evaluate. 
@@ -9,7 +9,7 @@ KAHAN.py - Involves model construction, training and evaluate.
 config.json - The model and training setting, including the hyperparameters and the pre-trained word2vec and wikipedia2vec.
 
 ---
-#### Dataset
+## Dataset
 The experimentation and results are for the FakeNewsNet dataset. Due to privacy policies in Twitter, [FakeNewsNet](https://github.com/KaiDMML/FakeNewsNet) is not publicly disclosed yet.
 The dataset can be obtained upon request for research and non-commercial purposes.
 
